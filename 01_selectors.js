@@ -48,3 +48,24 @@ const query_selector = () => {
 
 
 }
+
+
+const query_selector_all = () => {
+
+    // This returns ALL the available elements!!!
+    
+    // Most IMP: IT RETURNS a NodeList
+
+    const raw_h1 = document.querySelectorAll("h1")
+    
+    const list_items = document.querySelectorAll(".ListItem")
+
+    
+    // BUT HERE in The Prototype of nodelist go and check,
+    // We can apply forEach LOOP!
+
+    
+
+
+
+}
