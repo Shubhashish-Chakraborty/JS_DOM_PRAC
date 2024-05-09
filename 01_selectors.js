@@ -21,5 +21,30 @@ const class_selector = () => {
 
     const h1_tag_arr = Array.from(h1_tag) // HTMLCollection converted to an ARRAY
 
+    const list_items = document.getElementsByClassName("ListItem")
+    const list_items_arr = Array.from(list_items)
+    
+
+    list_items_arr.forEach(e => {
+
+        e.style.color = "cyan"
+        
+    })
+
+}
+
+
+const query_selector = () => {
+
+    // It returns the first found element ONLY
+    // Nodelist or HTMLCollection ka koi sawal hi nhi paida hota
+
+
+    list_items = document.querySelector("#item1") // ID
+
+    list_items = document.querySelector(".h1Tag")
+    list_items = document.querySelector(".ListItem")
+
+
 
 }
