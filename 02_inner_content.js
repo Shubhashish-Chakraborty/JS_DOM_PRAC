@@ -53,3 +53,13 @@ const with_querySelectorAll = () => {
 
 
 }
+
+
+const imp_textContent = () => {
+
+    const divImp = document.getElementById("div1")
+
+    divImp.textContent // => '\n        I am a div Inside a DIV\n    '
+    // TRY it out!
+
+}
