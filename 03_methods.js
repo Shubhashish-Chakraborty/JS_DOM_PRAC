@@ -5,7 +5,7 @@ const do_Styling = () => {
     const languages_div = document.querySelectorAll(".list-div")
 
 
-    languages.forEach((e) => {
+    languages.forEach((e) => { // try Out with language_div too
 
         e.style.backgroundColor = "black"
         e.style.color = "cyan"
@@ -37,5 +37,24 @@ const about_getAttribute = () => {
         // Will get The attribte ID for the paras
     })
 
+
+}
+
+
+const about_setAttribute = () => {
+
+    // setAttribute("id", "testID")
+    // setAttribute('class' , 'testClasss')
+
+    // CAN ADD OR CHANGE an ATTRIBUTE or ITS DATA TOO!!!!
+
+    const lonelyDiv = document.querySelectorAll("div")[2]
+
+    // lonelyDiv.setAttribute("id" , "lonely-div-id")
+    // lonelyDiv.setAttribute("class" , "lonely-div-class")
+
+    // CAN ADD STYLING ALSO
+    lonelyDiv.setAttribute("style" , "color: red")
+    
 
 }
