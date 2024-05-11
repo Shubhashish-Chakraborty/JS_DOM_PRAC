@@ -28,3 +28,28 @@ const with_classSelector = () => {
     li_items[0].textContent // => 'Python'
 
 }
+
+const with_querySelector = () => {
+
+    const li_items = document.querySelector(".ListItem")
+
+    li_items[0].innerHTML // => '<big>Python</big>'
+    li_items[0].innerText // => 'Python'
+    li_items[0].textContent // => 'Python'
+
+
+
+}
+
+
+const with_querySelectorAll = () => {
+
+
+    const li_items = document.querySelectorAll(".ListItem")
+
+    li_items[2].innerHTML // => '<i>TypeScript</i>'
+    li_items[2].innerText // => TypeScript
+    li_items[2].textContent // => TypeScript
+
+
+}
